@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import photo from '../assets/photo.JPG'; // Replace with your actual photo path
 
 const About = () => {
   const sectionRef = useRef(null);
@@ -50,7 +49,7 @@ const About = () => {
             <div className="md:w-1/3">
               <div className="bg-indigo-100 dark:bg-indigo-900/30 h-60 rounded-lg flex items-center justify-center mb-4">
                 {/* Replace with your image */}
-                          <img src={photo} alt="Developer" className="w-full h-full object-cover" />
+                          
                 
               </div>
               <div className="text-center">
