@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import photo from 'C:/Users/admin/portfolio/p/public/photo.JPG'; // Replace with your actual photo path
+import photo from '../assets/photo.JPG'; // Replace with your actual photo path
 
 const About = () => {
   const sectionRef = useRef(null);
